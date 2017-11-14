@@ -1,6 +1,6 @@
 {
   "name": "nwops-reportslack",
-  "version": "1.0.18",
+  "version": "1.0.19",
   "author": "nwops",
   "summary": "A custom reports processor to send notifications to a Slack channel",
   "license": "Apache-2.0",
