@@ -13,5 +13,5 @@ class { 'reportslack':
   #Webhook as provided either by the Add to Slack callback button or your Slack config
   webhook => 'https://hooks.slack.com/TXXXXX/BXXXXX/XXXXXXXXXX',
   #Channel in which to receive notifications (currently limited to a single string, include hash)
-  channel => '#general',
+  channel => '#puppet-nodes',
 }

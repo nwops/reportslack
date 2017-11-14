@@ -1,11 +1,11 @@
 {
-  "name": "ncorrare-reportslack",
-  "version": "1.0.17",
-  "author": "ncorrare",
+  "name": "nwops-reportslack",
+  "version": "1.0.18",
+  "author": "nwops",
   "summary": "A custom reports processor to send notifications to a Slack channel",
   "license": "Apache-2.0",
-  "source": "https://github.com/ncorrare/reportslack",
-  "project_page": "https://github.com/ncorrare/reportslack",
+  "source": "https://github.com/nwops/reportslack",
+  "project_page": "https://github.com/nwops/reportslack",
   "tags": [
     "slack",
     "chatops",
@@ -13,7 +13,7 @@
     "puppetdb",
     "notifications"
   ],
-  "issues_url": "https://github.com/ncorrare/reportslack/issues",
+  "issues_url": "https://github.com/nwops/reportslack/issues",
   "operatingsystem_support": [
     {
       "operatingsystem": "RedHat",
@@ -21,18 +21,19 @@
         "6.0",
         "7.0"
       ]
-    }
-  ],
-  "requirements": [
+    },
     {
-      "name": "pe",
-      "version_requirement": " >=2015.2.0 < 2016.2.0"
+      "operatingsystem": "Ubuntu",
+      "operatingsystemrelease": [
+        "14.04"
+      ]
     }
   ],
+
   "dependencies": [
     {
-      "name": "puppetlabs-puppetserver_gem",
-      "version_requirement": "0.X"
+      "name": "puppetlabs-inifile",
+      "version_requirement": ">= 0.1"
     }
   ]
 }
