@@ -3,7 +3,6 @@ require 'yaml'
 require 'slack-notifier'
 
 Puppet::Reports.register_report(:slack) do
-	Puppet.initialize_settings
 	if (Puppet.settings[:config]) then
 		configfile = File.join([File.dirname(Puppet.settings[:config]), "slack.yaml"])
 	else
